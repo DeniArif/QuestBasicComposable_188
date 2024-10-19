@@ -61,6 +61,9 @@ fun Biodata(modifier: Modifier = Modifier){
             contentDescription = "",
             modifier = Modifier.clip(CircleShape).size(200.dp)
         )
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text( "Nama"),
+
 
     }
 }
