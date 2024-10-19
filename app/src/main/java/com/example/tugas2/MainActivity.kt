@@ -58,7 +58,7 @@ fun Biodata(modifier: Modifier = Modifier){
         Text("Ini adalah halaman login", fontSize = 30.sp)
         Spacer(modifier = Modifier.padding(5.dp))
         Image(
-            painter = painterResource(id = R.drawable.UMY),
+            painter = painterResource(id = R.drawable.umy),
             contentDescription = "",
             modifier = Modifier.clip(CircleShape).size(200.dp)
         )
@@ -69,13 +69,18 @@ fun Biodata(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.padding(5.dp))
         Text("Deni Arif WIbowo",
-            fontSize = 60.sp,
+            fontSize = 40.sp,
             fontStyle = FontStyle.Italic
         )
         Spacer(modifier = Modifier.padding(5.dp))
         Text("20220140188",
             fontSize = 60.sp,
             fontStyle = FontStyle.Italic,
+        )
+        Spacer(modifier = Modifier.padding(5.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.den)
         )
 
 
