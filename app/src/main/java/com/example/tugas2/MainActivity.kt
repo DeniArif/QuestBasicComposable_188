@@ -62,7 +62,9 @@ fun Biodata(modifier: Modifier = Modifier){
             modifier = Modifier.clip(CircleShape).size(200.dp)
         )
         Spacer(modifier = Modifier.padding(10.dp))
-        Text( "Nama"),
+        Text( "Nama",
+            fontSize = 10.sp,)
+
 
 
     }
