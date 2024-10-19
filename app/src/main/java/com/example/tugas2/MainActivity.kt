@@ -67,6 +67,8 @@ fun Biodata(modifier: Modifier = Modifier){
             fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
+        Spacer(modifier = Modifier.padding(5.dp))
+        Text("Deni Arif WIbowo")
 
 
 
