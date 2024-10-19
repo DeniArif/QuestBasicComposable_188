@@ -80,7 +80,10 @@ fun Biodata(modifier: Modifier = Modifier){
         Spacer(modifier = Modifier.padding(5.dp))
 
         Image(
-            painter = painterResource(id = R.drawable.den)
+            painter = painterResource(id = R.drawable.den),
+            contentDescription = "",
+            modifier = Modifier.size(260.dp)
+
         )
 
 
