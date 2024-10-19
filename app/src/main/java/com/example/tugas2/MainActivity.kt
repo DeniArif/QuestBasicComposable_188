@@ -85,7 +85,6 @@ fun Biodata(modifier: Modifier = Modifier){
             modifier = Modifier.size(260.dp)
 
         )
-
     }
 }
 
