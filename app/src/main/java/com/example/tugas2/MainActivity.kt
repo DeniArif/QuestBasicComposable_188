@@ -86,8 +86,6 @@ fun Biodata(modifier: Modifier = Modifier){
 
         )
 
-
-
     }
 }
 
