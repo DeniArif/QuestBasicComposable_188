@@ -72,6 +72,9 @@ fun Biodata(modifier: Modifier = Modifier){
             fontSize = 60.sp,
             fontStyle = FontStyle.Italic
         )
+        Spacer(modifier = Modifier.padding(5.dp))
+        Text("20220140188",
+            )
 
 
 
